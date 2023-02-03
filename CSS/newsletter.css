@@ -1,0 +1,43 @@
+.newsletter{
+    background-color: var(--amarillo-medio);
+    padding: 2rem 0;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.info{
+    display:flex;
+    width: 35vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info_item{
+    margin-bottom: 1.5rem;
+}
+
+.info_item:last-of-type{
+    margin:0;
+}
+.info_item a{
+    color:var(--cafe);
+    font-weight: bold;
+}
+
+.suscribete{
+    color:var(--cafe);
+}
+
+.email{
+    background-color: none;
+    border: 3px solid var(--naranja);
+}
+
+.email_boton{
+    background-color: var(--naranja);
+}

@@ -29,35 +29,14 @@
 }
 
 .buscador{
-    /*background-color: var(--amarillo-medio);*/
+    background-color: var(--amarillo-claro);
     border: 3px solid var(--amarillo-medio);
-    border-radius: 20px;
-    height: 2rem;
-    display: flex;
-    justify-content: space-between;
-}
-.buscador_input{
-    border: none;
-    background:none;
-    padding-left: 1rem;
-    width: 19vw;
-    outline: none;
 }
 
 .buscador_boton{
     background-color: var(--amarillo-medio);
-    border: none;
-    width: 2.5rem;
-    border-radius: 0 20px 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.buscador_boton img{
-    height: 1.5rem;
-    align-self: center;
-}
 
 .login{
     border: 3px solid var(--amarillo-medio);
