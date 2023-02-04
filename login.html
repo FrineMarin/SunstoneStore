@@ -14,10 +14,9 @@
     <link href="CSS/reset.css" rel="stylesheet">
     <link href="CSS/header.css" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
-    <link href="CSS/banner.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/newsletter.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/productos.css">
+    <link rel="stylesheet" href="CSS/login.css">
 </head>
 
 <body class="body">
@@ -35,70 +34,25 @@
                     </button>
                 </form>
             </div>
-            <a class="miCuenta" href="login.html">
+            <a class="miCuenta" href="index.html">
                 <img src="Elementos/Graficos/login.png" alt="">
                 <p>Mi cuenta</p>
             </a>
         </div>
     </header>
     <main>
-        <div class="banner">
-            <div class="container">
-                <h1 class="banner_titulo">Febrero Promocional</h1>
-                <h2 class="banner_subtitulo">Hasta 40% de descuento en productos seleccionados</h2>
-                <a class="banner_boton boton" href="">Ver más</a>
-            </div>
-        </div>
-
-        <div class="container productos">
-            <div class="productos_categoria skincare">
-                <div class="separador">
-                    <h2 class="productos_titulo">Cuidado de la piel</h2>
-                    <a class="verTodo" href="">
-                        <p>Ver todo</p>
-                        <img src="Elementos/Graficos/flecha.png">
-                    </a>
+        <div class="container login">
+            <form class="login_form">
+                <div class="form">
+                    <h2 class="login_title">Iniciar Sesion</h2>
+                    <input class="login_input" name="email" type="email" placeholder="Escriba su correo electronico" required>
+                    <input class="login_input" name="pw" type="password" placeholder="Escriba su contraseña" required>
+                <button class="login_boton">Ingresar</button>  
+                <a href="">¿Olvidaste tu contraseña?</a>
+                <a href="">¿No tienes una cuenta?</a>
                 </div>
                 
-                <ul class="productos_lista lista_skincare">
-                    <li class="productos_item">
-                        <a href="" class="productos_link">
-                            <img class="productos_imagen" src="Elementos/Productos/alex-lvrs-dKMueUuH5CQ-unsplash.jpg"
-                                alt="">
-                            <h3 class="item_nombre">Hemp Seed Oil</h3>
-                        </a>
-                        <h4>$60</h4>
-                    </li>
- 
-
-                </ul>
-            </div>
-
-            <div class="productos_categoria drinks">
-                <div class="separador">
-                    <h2 class="productos_titulo">Bebidas</h2>
-                    <a class="verTodo" href="">
-                        <p>Ver todo</p>
-                        <img src="Elementos/Graficos/flecha.png">
-                    </a>
-                </div>
-                
-                <ul class="productos_lista lista_drinks">             
-                </ul>
-            </div>
-
-            <div class="productos_categoria velas">
-                <div class="separador">
-                    <h2 class="productos_titulo">Velas aromaticas</h2>
-                    <a class="verTodo" href="">
-                        <p>Ver todo</p>
-                        <img src="Elementos/Graficos/flecha.png">
-                    </a>
-                </div>
-                
-                <ul class="productos_lista lista_velas">                
-                </ul>
-            </div>
+            </form>
         </div>
 
         <div class="newsletter">
@@ -127,8 +81,6 @@
                             <img src="Elementos/Graficos/enviar.png" alt="">
                         </button>
                 </div>
-
-
 
                 </form>
             </div>
