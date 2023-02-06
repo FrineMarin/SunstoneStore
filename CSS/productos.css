@@ -42,7 +42,10 @@
 
 .productos_imagen{
     transition: transform .2s;
-    height: 200px
+    height: 200px;
+    width: 10vw;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .item_nombre{
@@ -50,6 +53,7 @@
     font-weight: 400;
     font-size: 1rem;
     margin-top: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .productos_item h4{
