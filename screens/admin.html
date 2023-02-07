@@ -10,52 +10,46 @@
     <meta charset="utf-8">
     <title>Sunstone</title>
 
-    <link href="CSS/normalize.css" rel="stylesheet">
-    <link href="CSS/reset.css" rel="stylesheet">
-    <link href="CSS/header.css" rel="stylesheet">
-    <link href="CSS/style.css" rel="stylesheet">
-    <link href="CSS/banner.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/newsletter.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/productos.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/banner.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/newsletter.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/productos.css">
+    <link rel="stylesheet" href="../CSS/verTodo.css">
+    <link rel="stylesheet" href="../CSS/adminScreen.css">
 </head>
+
 <body class="body">
     <header class="header">
         <div class="container">
             <div class="logo-y-buscador">
                 <div class="logo">
-                    <img src="Elementos/Graficos/logo.png">
+                    <img src="../Elementos/Graficos/logo.png">
                     <a href="index.html">Sunstone</a>
                 </div>
                 <form class="input buscador">
                     <input class="input_texto buscador_input" placeholder="¿Que deseas buscar?">
                     <button class="input_boton buscador_boton">
-                        <img src="Elementos/Graficos/busqueda.svg" alt="">
+                        <img src="../Elementos/Graficos/busqueda.svg" alt="">
                     </button>
                 </form>
             </div>
             <a class="miCuenta" href="login.html">
-                <img src="Elementos/Graficos/login.png" alt="">
+                <img src="../Elementos/Graficos/login.png" alt="">
                 <p>Mi cuenta</p>
             </a>
         </div>
     </header>
     <main>
-        <div class="banner">
-            <div class="container">
-                <h1 class="banner_titulo">Febrero Promocional</h1>
-                <h2 class="banner_subtitulo">Hasta 40% de descuento en productos seleccionados</h2>
-                <a class="banner_boton boton" href="">Ver más</a>
-            </div>
-        </div>
-
         <div class="container productos">
             <div class="productos_categoria skincare">
-                <h2 class="verTodo_titulo">Cuidado de la piel</h2>
-
-                <ul class="productos_lista verTodo_lista" data-skincare>
-
+                <h1>Todos los productos</h1>
+                <ul class="productos_lista allProducts" data-todos>
                 </ul>
+
             </div>
         </div>
 
@@ -63,7 +57,7 @@
             <div class="container">
                 <div class="info">
                     <div class="logo">
-                        <img src="Elementos/Graficos/logo.png">
+                        <img src="../Elementos/Graficos/logo.png">
                         <a href="index.html">Sunstone</a>
                     </div>
                     <ul class="info_lista">
@@ -82,7 +76,7 @@
                     <form class="input email">
                         <input class="input_texto email_input" placeholder="Ingresa tu email" type="email" required>
                         <button class="input_boton email_boton">
-                            <img src="Elementos/Graficos/enviar.png" alt="">
+                            <img src="../Elementos/Graficos/enviar.png" alt="">
                         </button>
                 </div>
 
@@ -92,9 +86,10 @@
             </div>
 
         </div>
-        <script src="service/client-service.js"></script>
+        
     </main>
     <footer class="footer">
         <p>Desarrollado por Frine Marin Gomez<br>2023</p>
     </footer>
+    <script type="module" src="../controllers/admin.js"></script>
 </body>

@@ -10,13 +10,14 @@
     <meta charset="utf-8">
     <title>Sunstone</title>
 
-    <link href="CSS/normalize.css" rel="stylesheet">
-    <link href="CSS/reset.css" rel="stylesheet">
-    <link href="CSS/header.css" rel="stylesheet">
-    <link href="CSS/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/newsletter.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/newsletter.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/productos.css">
+    <link rel="stylesheet" href="../CSS/verTodo.css">
 </head>
 
 <body class="body">
@@ -24,46 +25,41 @@
         <div class="container">
             <div class="logo-y-buscador">
                 <div class="logo">
-                    <img src="Elementos/Graficos/logo.png">
+                    <img src="../Elementos/Graficos/logo.png">
                     <a href="index.html">Sunstone</a>
                 </div>
                 <form class="input buscador">
                     <input class="input_texto buscador_input" placeholder="¿Que deseas buscar?">
                     <button class="input_boton buscador_boton">
-                        <img src="Elementos/Graficos/busqueda.svg" alt="">
+                        <img src="../Elementos/Graficos/busqueda.svg" alt="">
                     </button>
                 </form>
             </div>
-            <a class="miCuenta" href="index.html">
-                <img src="Elementos/Graficos/login.png" alt="">
+            <a class="miCuenta" href="login.html">
+                <img src="../Elementos/Graficos/login.png" alt="">
                 <p>Mi cuenta</p>
             </a>
         </div>
     </header>
     <main>
-        <div class="container login">
-            <form class="login_form">
-                <div class="form">
-                    <h2 class="login_title">Iniciar Sesion</h2>
-                    <input class="login_input" name="email" type="email" placeholder="Escriba su correo electronico"
-                        required id="email">
-                    <input class="login_input" name="pw" type="password" placeholder="Escriba su contraseña" required
-                        id="pw">
-                    <span id="mensajeError"></span>
-                    <button id="login_boton" type="button">Ingresar</button>
+        <div class="container productos">
+            <div class="productos_categoria skincare">
+                <h1>Todos los productos</h1>
+                <ul class="productos_lista lista_skincare" data-skincare>
+                </ul>
 
-                    <a href="">¿Olvidaste tu contraseña?</a>
-                    <a href="">¿No tienes una cuenta?</a>
-                </div>
-
-            </form>
+                <ul class="productos_lista lista_drinks" data-bebidas>
+                </ul>
+                <ul class="productos_lista lista_velas" data-velas>
+                </ul>
+            </div>
         </div>
 
         <div class="newsletter">
             <div class="container">
                 <div class="info">
                     <div class="logo">
-                        <img src="Elementos/Graficos/logo.png">
+                        <img src="../Elementos/Graficos/logo.png">
                         <a href="index.html">Sunstone</a>
                     </div>
                     <ul class="info_lista">
@@ -82,17 +78,20 @@
                     <form class="input email">
                         <input class="input_texto email_input" placeholder="Ingresa tu email" type="email" required>
                         <button class="input_boton email_boton">
-                            <img src="Elementos/Graficos/enviar.png" alt="">
+                            <img src="../Elementos/Graficos/enviar.png" alt="">
                         </button>
                 </div>
+
+
 
                 </form>
             </div>
 
         </div>
+        
     </main>
     <footer class="footer">
         <p>Desarrollado por Frine Marin Gomez<br>2023</p>
     </footer>
-    <script src="js/login.js"></script>
+    <script type="module" src="../controllers/productos.controller.js"></script>
 </body>

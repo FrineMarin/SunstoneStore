@@ -1,0 +1,5 @@
+.productos h1 {
+    color: var(--cafe);
+    text-align: center;
+    font-size: 3rem;
+}

@@ -21,7 +21,7 @@ function validarUsuario(username, pw) {
     users.forEach(user => {
         
         if (user.email==username && user.pw==pw) {
-            window.location.href = "index.html";
+            window.location.href = "admin.html";
         }else{
             document.getElementById("mensajeError").innerHTML="Usuario o contraseña incorrecto";
         }

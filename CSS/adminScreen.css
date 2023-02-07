@@ -1,0 +1,17 @@
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.iconos img{
+    height: 2rem;
+}
+
+.allProducts{
+    flex-wrap: wrap;
+}
+
+.admin_item{
+    margin: 2rem;
+}

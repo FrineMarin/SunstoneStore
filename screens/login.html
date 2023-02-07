@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/svg+xml" href="Elementos/Graficos/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <meta charset="utf-8">
+    <title>Sunstone</title>
+
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/banner.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/newsletter.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/productos.css">
+    <link rel="stylesheet" href="../CSS/verTodo.css">
+
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="logo-y-buscador">
+                <div class="logo">
+                    <img src="../Elementos/Graficos/logo.png">
+                    <a href="index.html">Sunstone</a>
+                </div>
+                <form class="input buscador">
+                    <input class="input_texto buscador_input" placeholder="¿Que deseas buscar?">
+                    <button class="input_boton buscador_boton">
+                        <img src="../Elementos/Graficos/busqueda.svg" alt="">
+                    </button>
+                </form>
+            </div>
+            <a class="miCuenta" href="login.html">
+                <img src="../Elementos/Graficos/login.png" alt="">
+                <p>Mi cuenta</p>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container login">
+            <form class="login_form">
+                <div class="form">
+                    <h2 class="login_title">Iniciar Sesion</h2>
+                    <input class="login_input" name="email" type="email" placeholder="Escriba su correo electronico"
+                        required id="email">
+                    <input class="login_input" name="pw" type="password" placeholder="Escriba su contraseña" required
+                        id="pw">
+                    <span id="mensajeError"></span>
+                    <button type="button" id="login_boton">Ingresar</button>
+
+                    <a href="">¿Olvidaste tu contraseña?</a>
+                    <a href="">¿No tienes una cuenta?</a>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="newsletter">
+            <div class="container">
+                <div class="info">
+                    <div class="logo">
+                        <img src="../Elementos/Graficos/logo.png">
+                        <a href="index.html">Sunstone</a>
+                    </div>
+                    <ul class="info_lista">
+                        <li class="info_item"><a href="">Quienes somos</a></li>
+                        <li class="info_item"><a href="">Politica de privacidad</a></li>
+                        <li class="info_item"><a href="">Programa de fidelidad</a></li>
+                        <li class="info_item"><a href="">Nuestras Tiendas</a></li>
+                        <li class="info_item"><a href="">Quiero ser franquiciado</a></li>
+                        <li class="info_item"><a href="">Anuncie Aqui</a></li>
+                    </ul>
+                </div>
+                <div class="suscribete">
+                    <h2>Newsletter</h2>
+                    <p>¿Quieres saber más de nosotros? Suscríbete</p>
+
+                    <form class="input email">
+                        <input class="input_texto email_input" placeholder="Ingresa tu email" type="email" required>
+                        <button class="input_boton email_boton">
+                            <img src="../Elementos/Graficos/enviar.png" alt="">
+                        </button>
+                </div>
+
+
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Frine Marin Gomez<br>2023</p>
+    </footer>
+    <script type="module" src="../controllers/login.controller.js"></script>
+</body>
