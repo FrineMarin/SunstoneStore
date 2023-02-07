@@ -32,7 +32,7 @@
 
 }
 
-.login_boton {
+#login_boton {
     color: var(--cafe);
     background-color: var(--amarillo-medio);
     width: fit-content;

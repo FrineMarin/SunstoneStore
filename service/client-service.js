@@ -11,23 +11,7 @@ const crearNuevoItem = (imgSrc, nombre, precio, alt) => {
     return item;
 }
 
-
-//const server = 'https://sunstoreserver.onrender.com/skincare';
-//Abrir http (metodo, url)
-for (let i = 0; i < 3; i++) {
-    let categoria = "";
-    switch (i) {
-        case 0:
-            categoria = "skincare";
-            break;
-        case 1:
-            categoria = "bebidas";
-            break;
-        case 2:
-            categoria = "velas";
-            break;
-    }
-
+const mostrarProductos=(categoria)=>{
     const lista = document.querySelector(`[data-${categoria}]`);
 
     const http = new XMLHttpRequest();  
@@ -45,5 +29,10 @@ for (let i = 0; i < 3; i++) {
     }
 }
 
+mostrarProductos("skincare");
+mostrarProductos("bebidas");
+mostrarProductos("velas");
+    
 
-console.log(http);
+
+
