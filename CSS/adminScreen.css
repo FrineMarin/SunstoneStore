@@ -15,3 +15,12 @@
 .admin_item{
     margin: 2rem;
 }
+
+.agregar{
+    align-self: flex-end;
+}
+
+.admin{
+    display: flex;
+flex-direction: column;
+}

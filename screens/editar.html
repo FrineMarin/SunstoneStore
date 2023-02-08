@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="../CSS/productos.css">
     <link rel="stylesheet" href="../CSS/verTodo.css">
-    <link rel="stylesheet" href="../CSS/adminScreen.css">
     <link rel="stylesheet" href="../CSS/form.css">
 </head>
 
@@ -45,20 +44,35 @@
         </div>
     </header>
     <main>
-        <div class="container productos">
-            <div class="productos_categoria admin">
-                <h1>Todos los productos</h1>
-                <a id="form_boton" class="agregar" href="agregar.html">Agregar nuevo producto</a>
-                <ul class="productos_lista allProducts" data-todos>
-                </ul>
+        <div class="container login">
+            <form class="form_container" data-form>
+                <div class="form">
+                    <h2 class="form_title">Editar Producto</h2>
+                    <input required class="form_input" type="text" placeholder="Nombre del producto" required id="nombre" data-nombre>
+                    <input required class="form_input" type="text" placeholder="Precio del producto" required id="precio" data-precio>
+                    <textarea data-descripcion required class="form_input form_textarea"
+                        placeholder="Descripcion (max. 150 caracteres)"></textarea>
+                    <h3 class="form_subtitle">Categoria</h3>
+                    <select required class="form_input" id="categoria" name="categoria" data-categoria>
+                        <option value="skincare">Cuidado de la piel</option>
+                        <option value="bebidas">Bebidas</option>
+                        <option value="velas">Velas</option>
+                    </select>
+                    <h3 class="form_subtitle">Imagen</h3>
+                    <input class="form_input" type="type" data-imagen>
+                    <input required class="form_input" type="text" placeholder="Descripcion de la imagen" data-alt>
+                    <span id="mensajeError"></span>
+                    <button type="submit" id="form_boton">Agregar Producto</button>
+                </div>
 
-            </div>
+            </form>
         </div>
 
-        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="../controllers/actualizar.controller.js"></script>
     </main>
     <footer class="footer">
         <p>Desarrollado por Frine Marin Gomez<br>2023</p>
     </footer>
-    <script type="module" src="../controllers/admin.js"></script>
 </body>

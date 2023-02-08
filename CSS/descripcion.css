@@ -1,5 +1,7 @@
 .descripcion_img{
     height: 40vw;
+    max-width: 40vw;
+    object-fit: cover;  
 }
 
 .descripcionProducto{

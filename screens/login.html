@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../CSS/productos.css">
     <link rel="stylesheet" href="../CSS/verTodo.css">
 
-    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/form.css">
 </head>
 
 <body class="body">
@@ -47,15 +47,15 @@
 
     <main>
         <div class="container login">
-            <form class="login_form">
+            <form class="form_container">
                 <div class="form">
-                    <h2 class="login_title">Iniciar Sesion</h2>
-                    <input class="login_input" name="email" type="email" placeholder="Escriba su correo electronico"
+                    <h2 class="form_title">Iniciar Sesion</h2>
+                    <input class="form_input" name="email" type="email" placeholder="Escriba su correo electronico"
                         required id="email">
-                    <input class="login_input" name="pw" type="password" placeholder="Escriba su contraseña" required
+                    <input class="form_input" name="pw" type="password" placeholder="Escriba su contraseña" required
                         id="pw">
                     <span id="mensajeError"></span>
-                    <button type="button" id="login_boton">Ingresar</button>
+                    <button type="button" id="form_boton" data-login>Ingresar</button>
 
                     <a href="">¿Olvidaste tu contraseña?</a>
                     <a href="">¿No tienes una cuenta?</a>

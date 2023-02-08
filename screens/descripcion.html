@@ -10,15 +10,18 @@
     <meta charset="utf-8">
     <title>Sunstone</title>
 
-    <link href="CSS/normalize.css" rel="stylesheet">
-    <link href="CSS/reset.css" rel="stylesheet">
-    <link href="CSS/header.css" rel="stylesheet">
-    <link href="CSS/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/newsletter.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/login.css">
-    <link rel="stylesheet" href="CSS/descripcion.css">
-    <link rel="stylesheet" href="CSS/productos.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/banner.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/newsletter.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/productos.css">
+    <link rel="stylesheet" href="../CSS/verTodo.css">
+
+    <link rel="stylesheet" href="../CSS/descripcion.css">
+
 </head>
 
 <body class="body">
@@ -26,43 +29,37 @@
         <div class="container">
             <div class="logo-y-buscador">
                 <div class="logo">
-                    <img src="Elementos/Graficos/logo.png">
+                    <img src="../Elementos/Graficos/logo.png">
                     <a href="index.html">Sunstone</a>
                 </div>
                 <form class="input buscador">
                     <input class="input_texto buscador_input" placeholder="¿Que deseas buscar?">
                     <button class="input_boton buscador_boton">
-                        <img src="Elementos/Graficos/busqueda.svg" alt="">
+                        <img src="../Elementos/Graficos/busqueda.svg" alt="">
                     </button>
                 </form>
             </div>
-            <a class="miCuenta" href="index.html">
-                <img src="Elementos/Graficos/login.png" alt="">
+            <a class="miCuenta" href="login.html">
+                <img src="../Elementos/Graficos/login.png" alt="">
                 <p>Mi cuenta</p>
             </a>
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="descripcionProducto">
-                <img class="descripcion_img" src="Elementos/Productos/alex-lvrs-dKMueUuH5CQ-unsplash.jpg">
-                <div class="descripcion">
-                    <h1>Producto XYZ</h1>
-                    <h2>$60</h2>
-                    <p>Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis
-                        fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada.
-                        Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus
-                        doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
-                        <button class="agregar">Agregar al carrito</button>
-                </div>
+        <div class="container" id="descripcion">
+            <div data-descripcion>
+                
+                
             </div>
+            
+
             <div class="productosSimilares">
                 <h2>Productos Similares</h2>
 
                 <ul class="productos_lista lista_drinks">    
                     <li class="productos_item">
                         <a href="" class="productos_link">
-                            <img class="productos_imagen" src="Elementos/Productos/alex-lvrs-dKMueUuH5CQ-unsplash.jpg"
+                            <img class="productos_imagen" src="../Elementos/Productos/alex-lvrs-dKMueUuH5CQ-unsplash.jpg"
                                 alt="">
                             <h3 class="item_nombre">Hemp Seed Oil</h3>
                         </a>
@@ -79,7 +76,7 @@
             <div class="container">
                 <div class="info">
                     <div class="logo">
-                        <img src="Elementos/Graficos/logo.png">
+                        <img src="../Elementos/Graficos/logo.png">
                         <a href="index.html">Sunstone</a>
                     </div>
                     <ul class="info_lista">
@@ -98,9 +95,11 @@
                     <form class="input email">
                         <input class="input_texto email_input" placeholder="Ingresa tu email" type="email" required>
                         <button class="input_boton email_boton">
-                            <img src="Elementos/Graficos/enviar.png" alt="">
+                            <img src="../Elementos/Graficos/enviar.png" alt="">
                         </button>
                 </div>
+
+
 
                 </form>
             </div>
@@ -110,4 +109,5 @@
     <footer class="footer">
         <p>Desarrollado por Frine Marin Gomez<br>2023</p>
     </footer>
+    <script type="module" src="../controllers/descripcion.controller.js"></script>
 </body>
