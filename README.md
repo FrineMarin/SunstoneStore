@@ -28,12 +28,12 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 ------
 
 - ### [Preview Page](https://frinemarin.github.io/SunstoneStore/screens/index.html) 🛒
-  <img  src="https://postimg.cc/jD2RLP7r" width = 393 height = 768>
-  <img  src="https://postimg.cc/XXKjhVbt" width = 393 heigth = 768>
+  <img  src="https://i.postimg.cc/cLMCkc16/index.png" width = 393 height = 768>
+  <img  src="https://i.postimg.cc/59TXX0k9/descripcion.png" width = 393 heigth = 768>
   
   ----------------
   
   - ### Menu Adminstrador :bust_in_silhouette:
-  <img  src="https://postimg.cc/n91nQ12n" width = 393 height = 768>
+  <img  src="https://i.postimg.cc/RhkhysnJ/login.png" width = 393 height = 768>
   <img  src="https://i.postimg.cc/FRKYLJ4z/admin.png" width = 393 heigth = 768>
-    <img  src="https://postimg.cc/n9xHzWvd" width = 393 heigth = 768>
+    <img  src="https://i.postimg.cc/BbLth9tG/agregar.png" width = 393 heigth = 768>
