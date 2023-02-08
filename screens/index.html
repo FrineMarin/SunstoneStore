@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="icon" type="image/svg+xml" href="Elementos/Graficos/logo.png">
+    <link rel="icon" type="image/svg+xml" href="../Elementos/Graficos/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Pacifico&display=swap"
         rel="stylesheet">
 
@@ -30,8 +30,8 @@
                     <a href="index.html">Sunstone</a>
                 </div>
                 <form class="input buscador">
-                    <input class="input_texto buscador_input" placeholder="¿Que deseas buscar?">
-                    <button class="input_boton buscador_boton">
+                    <input class="input_texto buscador_input" placeholder="¿Que deseas buscar?" data-input>
+                    <button class="input_boton buscador_boton" data-buscar>
                         <img src="../Elementos/Graficos/busqueda.svg" alt="">
                     </button>
                 </form>
@@ -127,6 +127,7 @@
 
         </div>
         <script type="module" src="../controllers/productos.controller.js"></script>
+        <script type="module" src="../controllers/search.controller.js"></script>
     </main>
     <footer class="footer">
         <p>Desarrollado por Frine Marin Gomez<br>2023</p>

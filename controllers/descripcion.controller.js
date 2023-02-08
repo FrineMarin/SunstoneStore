@@ -1,5 +1,6 @@
 import { productServices } from "../service/product-service.js";
 
+
 const currentUrl=new URL(window.location);
 const id=currentUrl.searchParams.get("id");
 
@@ -18,11 +19,11 @@ const crearItem = (imgSrc, nombre, precio, alt,descripcion) => {
     return item;
 }
 
-    productServices.detalleProducto(id).then((item)=>{
-        const lista = document.querySelector("[data-descripcion]");
-        const nuevoItem = crearItem(item.imgSrc, item.nombre, item.precio, item.alt,item.descripcion);
-        lista.appendChild(nuevoItem);
-   })
+productServices.detalleProducto(id).then((item)=>{
+    const lista = document.querySelector("[data-descripcion]");
+    const nuevoItem = crearItem(item.imgSrc, item.nombre, item.precio, item.alt,item.descripcion);
+    lista.appendChild(nuevoItem);
+})
 
 
 /*

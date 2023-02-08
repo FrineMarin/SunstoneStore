@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="../CSS/productos.css">
     <link rel="stylesheet" href="../CSS/verTodo.css">
-
-    <link rel="stylesheet" href="../CSS/descripcion.css">
-
+    <link rel="stylesheet" href="../CSS/adminScreen.css">
 </head>
 
 <body class="body">
@@ -46,12 +44,9 @@
         </div>
     </header>
     <main>
-        <div class="container" id="descripcion">
-            <div data-descripcion>
-                
-                
-            </div>
-            
+        <div class="container productos">
+                <ul class="productos_lista allProducts" data-resultados>
+                </ul>
         </div>
 
         <div class="newsletter">
@@ -87,10 +82,10 @@
             </div>
 
         </div>
+        <script type="module" src="../controllers/resultados.js"></script>
+        <script type="module" src="../controllers/search.controller.js"></script>
     </main>
     <footer class="footer">
         <p>Desarrollado por Frine Marin Gomez<br>2023</p>
     </footer>
-    <script type="module" src="../controllers/descripcion.controller.js"></script>
-    <script type="module" src="../controllers/search.controller.js"></script>
 </body>

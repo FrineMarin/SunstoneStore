@@ -1,6 +1,5 @@
 import {productServices} from "../service/product-service.js";
 
-
 const crearNuevoItem = (imgSrc, nombre, precio, alt,id) => {
     const item = document.createElement("li");
     const producto = `

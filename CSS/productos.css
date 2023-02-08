@@ -30,7 +30,7 @@
 
 .productos_lista{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
