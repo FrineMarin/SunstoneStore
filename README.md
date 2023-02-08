@@ -24,7 +24,7 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 - Funcionalidad de buscar los productos
 
 - #### Deploy del JSON SERVER con el servicio de Render
-- 
+
 ------
 
 - ### [Preview Page](https://frinemarin.github.io/SunstoneStore/screens/index.html) 🛒
