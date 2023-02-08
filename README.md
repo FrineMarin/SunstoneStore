@@ -35,5 +35,5 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
   
   - ### Menu Adminstrador :bust_in_silhouette:
   <img  src="https://postimg.cc/n91nQ12n" width = 393 height = 768>
-  <img  src="https://i.postimg.cc/GBZ30t9n/admin.png" width = 393 heigth = 768>
+  <img  src="https://i.postimg.cc/FRKYLJ4z/admin.png" width = 393 heigth = 768>
     <img  src="https://postimg.cc/n9xHzWvd" width = 393 heigth = 768>
